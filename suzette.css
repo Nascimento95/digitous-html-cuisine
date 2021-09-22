@@ -5,15 +5,18 @@
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Oswald:wght@200&display=swap");
 
-#section-header {
-  background: url(./img/header2.jpg) no-repeat center/cover;
+#section-header-suzette {
+  background: url(./img/articles/suzette/suzette-header.jpg) no-repeat
+    center/cover;
   background-attachment: fixed;
   width: 100%;
   height: 600px;
 }
 
 header {
+  background-color: rgba(0, 0, 0, 0.8);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -24,18 +27,14 @@ header {
 }
 
 header h1 {
-  font-family: "Courgette", cursive;
-  font-style: italic;
   font-size: 25px;
   margin-left: 2%;
+  font-style: italic;
+  font-family: "Courgette", cursive;
 }
 
 header nav {
   width: 18%;
-}
-
-nav img {
-  display: none;
 }
 
 header nav a {
@@ -49,30 +48,25 @@ header nav a:hover {
   color: white;
 }
 
-.head-logo {
-  height: 50%;
-  width: 100%;
+header nav img {
+  display: none;
+}
+
+.head-suzette {
   color: white;
+  font-size: 25px;
+  width: 100%;
+  height: 50%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
-  flex-direction: column;
+}
+.head-suzette h1 {
   font-family: "Courgette", cursive;
   font-style: italic;
-}
-
-.head-logo img {
-  margin-bottom: 2%;
-  width: 5%;
-}
-
-.head-logo h1 {
-  margin-bottom: 2%;
-  font-size: 45px;
-}
-
-.head-logo h2 {
-  font-size: 35px;
+  width: 80%;
+  font-size: 40px;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 @media screen and (max-width: 800px) {
