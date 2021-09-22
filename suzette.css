@@ -4,12 +4,9 @@
   box-sizing: border-box;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Oswald:wght@200&display=swap");
-
 #section-header-suzette {
   background: url(./img/articles/suzette/suzette-header.jpg) no-repeat
-    center/cover;
+  center/cover;
   background-attachment: fixed;
   width: 100%;
   height: 600px;
@@ -27,10 +24,9 @@ header {
 }
 
 header h1 {
+  font-family: 'Courgette', cursive;
   font-size: 25px;
   margin-left: 2%;
-  font-style: italic;
-  font-family: "Courgette", cursive;
 }
 
 header nav {
@@ -63,7 +59,6 @@ header nav img {
 }
 .head-suzette h1 {
   font-family: "Courgette", cursive;
-  font-style: italic;
   width: 80%;
   font-size: 40px;
   background-color: rgba(0, 0, 0, 0.7);

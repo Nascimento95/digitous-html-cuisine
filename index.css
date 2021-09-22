@@ -4,8 +4,6 @@
   box-sizing: border-box;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
-
 #section-header {
   background: url(./img/header2.jpg) no-repeat center/cover;
   background-attachment: fixed;
@@ -72,7 +70,7 @@ header nav a:hover {
 }
 
 .head-logo h2 {
-  font-size: 35px;
+  font-size: 40px;
 }
 
 @media screen and (max-width: 800px) {
