@@ -107,16 +107,16 @@ header nav a:hover {
     
 } */
 
-.container {
+.containerfooter {
   padding-top: 50px;
   padding-bottom: 190px;
   padding-right: 50px;
 }
 
-.container h4 {
+.containerfooter h4 {
   font-family: "Courgette", cursive;
 }
 
-.container h5 {
+.containerfooter h5 {
   font-family: "Courgette", cursive;
 }
