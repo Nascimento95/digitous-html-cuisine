@@ -84,6 +84,9 @@ header nav img {
   padding: 20px;
 }
 
+.container p {
+  font-family: "Oswald";
+}
 /*footer*/
 
 .logo1 {
