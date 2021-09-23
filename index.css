@@ -73,6 +73,14 @@ header nav a:hover {
   font-size: 40px;
 }
 
+.text-dark {
+  text-decoration: none;
+}
+
+.text-dark:hover {
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 800px) {
   nav img {
     display: block;
@@ -83,22 +91,13 @@ header nav a:hover {
   }
 }
 
-
 /* footer */
 
-.logo1{
-
-  width:  auto;
+.logo1 {
+  width: auto;
   height: 20px;
-  
-    
 }
 
-
-.col-auto{
-
+.col-auto {
   margin-top: 50px;
-  
-
-    
 }
