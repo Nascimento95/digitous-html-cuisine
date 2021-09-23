@@ -73,7 +73,9 @@ header nav img {
     display: none;
   }
 }
-
+.container h2 {
+  font-family: "courgette";
+}
 /*footer*/
 
 .logo1 {
