@@ -91,6 +91,13 @@ header nav a:hover {
   }
 }
 
+/* section  */
+div , p {
+  
+  font-family: "Courgette", cursive;
+}
+
+
 /*footer*/
 
 .logo1 {
