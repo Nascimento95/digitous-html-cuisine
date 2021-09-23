@@ -89,21 +89,24 @@ header nav a:hover {
   header nav a {
     display: none;
   }
+
+  .head-logo img {
+    width: 25%;
+  }
 }
 
-  /* section article font family */
-  section , p {
-  
-    font-family: "Oswald";
-  }
-  section , h3 {
-  
-    font-family: "courgette";
-  }
-  label{
-    font-family: "courgette";
-  }
-
+/* section article font family */
+section,
+p {
+  font-family: "Oswald";
+}
+section,
+h3 {
+  font-family: "courgette";
+}
+label {
+  font-family: "courgette";
+}
 
 /*footer*/
 
@@ -119,10 +122,25 @@ header nav a:hover {
   padding-right: 50px;
 }
 
-.containerfooter h4 {
-  font-family: "Courgette", cursive;
+/* section article font family */
+section,
+p {
+  font-family: "Oswald";
 }
-
-.containerfooter h5 {
-  font-family: "Courgette", cursive;
+section,
+h3 {
+  font-family: "courgette";
+}
+label {
+  font-family: "courgette";
+}
+/* section footer font-family */
+div,
+h4,
+h5 {
+  font-family: "courgette";
+}
+div,
+p {
+  font-family: "Oswald";
 }

@@ -73,6 +73,18 @@ header nav img {
     display: none;
   }
 }
+.container h2 {
+  font-family: "courgette";
+}
+
+.container h6 {
+  font-family: "courgette";
+}
+
+.container label {
+  font-family: "oswald";
+}
+
 
 /*footer*/
 

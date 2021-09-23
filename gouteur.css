@@ -71,6 +71,12 @@ header nav img {
   header nav a {
     display: none;
   }
+
+  .head-gouteur h1,
+  h2 {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 #container {
@@ -82,6 +88,10 @@ header nav img {
   width: 300px;
   background: white;
   padding: 20px;
+}
+
+.container p {
+  font-family: "Oswald";
 }
 
 /*footer*/
@@ -112,4 +122,27 @@ header nav img {
 
 .containerfooter h5 {
   font-family: "Courgette", cursive;
+}
+
+/* section article font family */
+section,
+p {
+  font-family: "Oswald";
+}
+section,
+h3 {
+  font-family: "courgette";
+}
+label {
+  font-family: "courgette";
+}
+/* section footer font-family */
+div,
+h4,
+h5 {
+  font-family: "courgette";
+}
+div,
+p {
+  font-family: "Oswald";
 }
