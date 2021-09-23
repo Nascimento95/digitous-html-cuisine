@@ -82,11 +82,11 @@ header nav a:hover {
 }
 
 @media screen and (max-width: 800px) {
-  nav img {
+  header nav img {
     display: block;
   }
 
-  nav a {
+  header nav a {
     display: none;
   }
 }
@@ -98,25 +98,17 @@ header nav a:hover {
   height: 20px;
   background-color: white;
 }
-/* 
-.col-auto{
 
-  margin-top: 50px;
-  
-
-    
-} */
-
-.container {
+.containerfooter {
   padding-top: 50px;
   padding-bottom: 190px;
   padding-right: 50px;
 }
 
-.container h4 {
+.containerfooter h4 {
   font-family: "Courgette", cursive;
 }
 
-.container h5 {
+.containerfooter h5 {
   font-family: "Courgette", cursive;
 }
