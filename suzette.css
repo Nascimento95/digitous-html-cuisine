@@ -74,21 +74,40 @@ header nav img {
   }
 }
 
-/* footer */
+
+
+/*footer*/
 
 .logo1{
 
   width:  auto;
   height: 20px;
-  
+  background-color: white;
     
 }
-
-
+/* 
 .col-auto{
 
   margin-top: 50px;
   
 
     
-}
+} */
+
+
+.container {
+  padding-top: 50px;
+  padding-bottom: 190px;
+  padding-right: 50px;
+ }
+
+.container h4{
+  
+  font-family: "Courgette", cursive;
+ }
+
+ .container h5{
+  
+  font-family: "Courgette", cursive;
+ }
+
