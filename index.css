@@ -91,11 +91,18 @@ header nav a:hover {
   }
 }
 
-/* section  */
-div , p {
+  /* section article font family */
+  section , p {
   
-  font-family: "Courgette", cursive;
-}
+    font-family: "Oswald";
+  }
+  section , h3 {
+  
+    font-family: "courgette";
+  }
+  label{
+    font-family: "courgette";
+  }
 
 
 /*footer*/
