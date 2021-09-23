@@ -65,25 +65,21 @@ header nav img {
 }
 
 @media screen and (max-width: 800px) {
-  nav img {
+  header nav img {
     display: block;
   }
 
-  nav a {
+  header nav a {
     display: none;
   }
 }
 
-
-
 /*footer*/
 
-.logo1{
-
-  width:  auto;
+.logo1 {
+  width: auto;
   height: 20px;
   background-color: white;
-    
 }
 /* 
 .col-auto{
@@ -94,20 +90,16 @@ header nav img {
     
 } */
 
-
 .container {
   padding-top: 50px;
   padding-bottom: 190px;
   padding-right: 50px;
- }
+}
 
-.container h4{
-  
+.container h4 {
   font-family: "Courgette", cursive;
- }
+}
 
- .container h5{
-  
+.container h5 {
   font-family: "Courgette", cursive;
- }
-
+}
