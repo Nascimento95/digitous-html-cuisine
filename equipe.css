@@ -1,99 +1,101 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#section-header {
+  background: url(./img/team/team.jpg) no-repeat center/cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 600px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  border-bottom: gray solid 2px;
+  color: white;
+}
+
+header h1 {
+  font-family: "Courgette", cursive;
+  font-style: italic;
+  font-size: 25px;
+  margin-left: 2%;
+}
+
+header nav {
+  width: 18%;
+}
+
+nav img {
+  display: none;
+}
+
+header nav a {
+  font-size: 16px;
+  margin-right: 2%;
+  color: rgb(126, 126, 126);
+  text-decoration: none;
+}
+
+header nav a:hover {
+  color: white;
+}
+
+.head-logo {
+  height: 50%;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Courgette", cursive;
+  font-style: italic;
+}
+
+.head-logo img {
+  margin-bottom: 2%;
+  width: 5%;
+}
+
+.head-logo h1 {
+  margin-bottom: 2%;
+  font-size: 45px;
+}
+
+.head-logo h2 {
+  font-size: 40px;
+}
+
+.text-dark {
+  text-decoration: none;
+}
+
+.text-dark:hover {
+  text-decoration: underline;
+}
+@media screen and (max-width: 800px) {
+  header nav img {
+    display: block;
   }
-  
-  #section-header {
-    background: url(./img/team/team.jpg) no-repeat center/cover;
-    background-attachment: fixed;
-    width: 100%;
-    height: 600px;
-  }
-  
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 80px;
-    border-bottom: gray solid 2px;
-    color: white;
-  }
-  
-  header h1 {
-    font-family: "Courgette", cursive;
-    font-style: italic;
-    font-size: 25px;
-    margin-left: 2%;
-  }
-  
-  header nav {
-    width: 18%;
-  }
-  
-  nav img {
+
+  header nav a {
     display: none;
   }
-  
-  header nav a {
-    font-size: 16px;
-    margin-right: 2%;
-    color: rgb(126, 126, 126);
-    text-decoration: none;
-  }
-  
-  header nav a:hover {
-    color: white;
-  }
-  
-  .head-logo {
-    height: 50%;
-    width: 100%;
-    color: white;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-direction: column;
-    font-family: "Courgette", cursive;
-    font-style: italic;
-  }
-  
-  .head-logo img {
-    margin-bottom: 2%;
-    width: 5%;
-  }
-  
-  .head-logo h1 {
-    margin-bottom: 2%;
-    font-size: 45px;
-  }
-  
-  .head-logo h2 {
-    font-size: 40px;
-  }
-  
-  .text-dark {
-    text-decoration: none;
-  }
-  
-  .text-dark:hover {
-    text-decoration: underline;
-  }
-  @media screen and (max-width: 800px) {
-    header nav img {
-      display: block;
-    }
-  
-    header nav a {
-      display: none;
-    }
-  }
 
+  .head-logo h1,
+  h2 {
+    text-align: center;
+  }
+}
 
-
- 
- /*footer*/
+/*footer*/
 
 .logo1 {
   width: auto;
@@ -123,24 +125,25 @@
   font-family: "Courgette", cursive;
 }
 
-
 /* section article font family */
-section , p {
-  
+section,
+p {
   font-family: "Oswald";
 }
-section , h3 {
-
+section,
+h3 {
   font-family: "courgette";
 }
-label{
+label {
   font-family: "courgette";
 }
 /* section footer font-family */
-div ,h4 ,h5 {
-
+div,
+h4,
+h5 {
   font-family: "courgette";
 }
-div , p{
+div,
+p {
   font-family: "Oswald";
 }
