@@ -1,106 +1,97 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  #section-header-gouteur {
-    background: url(img/team/team.jpg) no-repeat center/cover;
-    background-attachment: fixed;
-    width: 100%;
-    height: 600px;
-    background-color: rgbal(0, 0, 0, 0.8);
-    filter: brightness(50%);
-    -webkit-filter: brightness(50%);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+#section-header-gouteur {
+  background: url(img/team/team.jpg) no-repeat center/cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 600px;
+}
 
+header {
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  border-bottom: gray solid 2px;
+  color: white;
+}
 
-  
-  header {
-    background-color: rgba(0, 0, 0, 0.8);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 80px;
-    border-bottom: gray solid 2px;
-    color: white;
+header h1 {
+  font-family: "Courgette", cursive;
+  font-size: 25px;
+  margin-left: 2%;
+}
+
+header nav {
+  width: 18%;
+}
+
+header nav a {
+  font-size: 16px;
+  margin-right: 2%;
+  color: rgb(126, 126, 126);
+  text-decoration: none;
+}
+
+header nav a:hover {
+  color: white;
+}
+
+header nav img {
+  display: none;
+}
+
+.head-gouteur {
+  color: white;
+  font-size: 25px;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head-gouteur h1 {
+  font-family: "Courgette", cursive;
+  width: 50%;
+  font-size: 40px;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  header nav img {
+    display: block;
   }
-  
-  header h1 {
-    font-family: "Courgette", cursive;
-    font-size: 25px;
-    margin-left: 2%;
-  }
-  
-  header nav {
-    width: 18%;
-  }
-  
 
   header nav a {
-    font-size: 16px;
-    margin-right: 2%;
-    color: rgb(126, 126, 126);
-    text-decoration: none;
-  }
-  
-  header nav a:hover {
-    color: white;
-  }
-  
-  header nav img {
     display: none;
   }
-  
-  .head-gouteur {
-    color: white;
-    font-size: 25px;
-    width: 100%;
-    height: 50%;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .head-gouteur h1 {
-    font-family: "Courgette", cursive;
-    width: 50%;
-    font-size: 40px;
-    text-align: center;
-  }
-  
-  @media screen and (max-width: 800px) {
-    header nav img {
-      display: block;
-    }
-  
-    header nav a {
-      display: none;
-    }
-  }
-
-  #container{
-    width: 700px;
-    background: white;
-    
 }
-#floated{
-    float: left;
-    width: 300px;
-    background: white;
-    padding: 20px;
 
+#container {
+  width: 700px;
+  background: white;
 }
-  
-  /*footer*/
-  
-  .logo1 {
-    width: auto;
-    height: 20px;
-    background-color: white;
-  }
-  /* 
+#floated {
+  float: left;
+  width: 300px;
+  background: white;
+  padding: 20px;
+}
+
+/*footer*/
+
+.logo1 {
+  width: auto;
+  height: 20px;
+  background-color: white;
+}
+/* 
   .col-auto{
   
     margin-top: 50px;
@@ -108,21 +99,17 @@
   
       
   } */
-  
-  
-  .containerfooter {
-    padding-top: 50px;
-    padding-bottom: 190px;
-    padding-right: 50px;
-  }
-  
-  .containerfooter h4{
-    
-    font-family: "Courgette", cursive;
-  }
-  
-   .containerfooter h5{
-    
-    font-family: "Courgette", cursive;
-  }
-  
+
+.containerfooter {
+  padding-top: 50px;
+  padding-bottom: 190px;
+  padding-right: 50px;
+}
+
+.containerfooter h4 {
+  font-family: "Courgette", cursive;
+}
+
+.containerfooter h5 {
+  font-family: "Courgette", cursive;
+}
