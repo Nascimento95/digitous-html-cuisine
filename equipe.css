@@ -91,9 +91,56 @@
   }
 
 
-  /* section  */
-div , p {
-  
-    font-family: "Courgette", cursive;
-  }
+
  
+ /*footer*/
+
+.logo1 {
+  width: auto;
+  height: 20px;
+  background-color: white;
+}
+/* 
+  .col-auto{
+  
+    margin-top: 50px;
+    
+  
+      
+  } */
+
+.containerfooter {
+  padding-top: 50px;
+  padding-bottom: 190px;
+  padding-right: 50px;
+}
+
+.containerfooter h4 {
+  font-family: "Courgette", cursive;
+}
+
+.containerfooter h5 {
+  font-family: "Courgette", cursive;
+}
+
+
+/* section article font family */
+section , p {
+  
+  font-family: "Oswald";
+}
+section , h3 {
+
+  font-family: "courgette";
+}
+label{
+  font-family: "courgette";
+}
+/* section footer font-family */
+div ,h4 ,h5 {
+
+  font-family: "courgette";
+}
+div , p{
+  font-family: "Oswald";
+}

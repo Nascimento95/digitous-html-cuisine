@@ -84,6 +84,13 @@ header nav img {
   padding: 20px;
 }
 
+.container p {
+  font-family: "Oswald";
+}
+
+
+
+
 /*footer*/
 
 .logo1 {
@@ -112,4 +119,26 @@ header nav img {
 
 .containerfooter h5 {
   font-family: "Courgette", cursive;
+}
+
+
+/* section article font family */
+section , p {
+  
+  font-family: "Oswald";
+}
+section , h3 {
+
+  font-family: "courgette";
+}
+label{
+  font-family: "courgette";
+}
+/* section footer font-family */
+div ,h4 ,h5 {
+
+  font-family: "courgette";
+}
+div , p{
+  font-family: "Oswald";
 }
